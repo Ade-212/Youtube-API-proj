@@ -2,7 +2,7 @@
 This Full stack Video app i created utilizing the MERN stack is an video platform similar to youtube but with my own creative twist that enables users to search for videos & more using the Youtube API that has been implemented in the program. Moreover, it provides authentication features where users can register and sign in, enhancing the user experience.
 
 # Project Description
-This application is a comprehensive platform built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It allows users to explore educational videos with the added advantage of a personalized experience after signing up. The backend handles user registration, authentication, and data management, while the frontend ensures a responsive and intuitive user interface.
+This application is a comprehensive platform built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It allows users to explore educational videos with the added advantage of a personalized experience after signing up. The backend handles user registration, authentication, and data management, while the frontend ensures a responsive and intuitive user interface. The project has also been hosted, as the Frontend was hosted using Netlify, Backend using Heroku and the MongoDB database using MongoDB Atlas
 
 # Tech Stack
 * # Backend
@@ -59,7 +59,7 @@ cd client npm install react react-dom axios react-router-dom
 
 Setting up Environment Variables:
 In the backend directory, create a .env file and set up your environment variables such as:
-DB_CONNECTION=your_mongodb_uri TOKEN_SECRET=your_secret_key PORT=5000
+DB_CONNECTION=your_mongodb_uri, TOKEN_SECRET=your_secret_key, PORT=5000
 
 Running the Backend:
 In the backend directory:
