@@ -1,0 +1,87 @@
+body {
+    background-color: #f4f4f4;
+    background-image: url('https://wallpaperaccess.com/full/2718707.jpg');
+    color: #333; /* Text color */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #007BFF; 
+    color: #fff; 
+    text-align: center;
+    padding: 20px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 36px;
+    letter-spacing: 2px;
+  }
+  
+  
+  input[type="text"] {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff; /* Input background color */
+    color: #333; /* Text color */
+    transition: background-color 0.3s ease-in-out;
+    margin-right: 10px;
+    width: 80%; /* Adjust input width */
+  }
+  
+  input[type="text"]::placeholder {
+    color: #777; /* Placeholder text color */
+  }
+  
+  button {
+    font-size: 18px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333; /* Button background color */
+    color: #fff; /* Button text color */
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555; /* Hovered button background color */
+  }
+  
+  
+  .video-container {
+    background-color: transparent; /* No background color */
+    color: #333; /* Text color */
+    text-align: center;
+    padding: 20px;
+  }
+
+  @media screen and (max-width: 768px) {
+    input[type="text"] {
+      width: 95%; /* full-width on mobile with room for margin */
+      margin-right: 5px;
+    }
+  }
+  
+  .video-container div {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    background-color: #fff; 
+    width: calc(100% - 40px);
+  }
+  
+  .video-container div img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .logout {
+    text-align: center; /* Center the content within the div */
+    margin-top: 20px; 
+  }
