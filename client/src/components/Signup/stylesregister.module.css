@@ -1,0 +1,95 @@
+body {
+  background-image: url('https://wallpaperaccess.com/full/2718707.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#registerForm {
+  text-align: center;
+  padding: 20px;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+  #registerForm {
+    max-width: 90%;
+    padding: 15px;
+  }
+}
+
+#registerForm h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+#registerForm form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#registerForm input[type="text"],
+#registerForm input[type="password"],
+#registerForm input[type="email"] {
+  font-size: 18px;
+  padding: 8px;
+  margin: 8px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+#registerForm input[type="text"]::placeholder,
+#registerForm input[type="password"]::placeholder,
+#registerForm input[type="email"]::placeholder {
+  color: #777;
+}
+
+#registerForm button[type="submit"] {
+  font-size: 20px;
+  padding: 8px 15px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#registerForm button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+#registerForm button[type="button"] {
+  font-size: 20px;
+  padding: 8px 15px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #6c757d; /* A different color to differentiate it from the register button */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#registerForm button[type="button"]:hover {
+  background-color: #5a6268;
+}
+
+.buttonSpacing {
+  margin-top: 15px;
+  margin-right: 20px;
+}
