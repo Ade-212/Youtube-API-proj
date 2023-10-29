@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styles from './stylesplatform.module.css';
 import { useNavigate } from 'react-router-dom';  // importing useNavigate hook
 
-const API_KEY = 'AIzaSyCMUX2S8JzZo1YWTG3v9kRpMj7_CLjH2Ns';
+const API_KEY = ' ';
 
 function VideoPlatform() {
     const [searchTerm, setSearchTerm] = useState('');
