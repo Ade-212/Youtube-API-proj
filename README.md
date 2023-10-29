@@ -26,6 +26,7 @@ User Login: Registered users can log in and access the platform
 Video Exploration: Utilizes the Youtube API to allow users to search and view educational videos
 Protected Routes: Some routes are protected and only authenticated users can access them
 Responsive design: The design of this project is responsive and works on both desktop and mobile devices
+
 Screenshots:
 Img 1/Register page:
 Screenshot 2023-10-22 011305
